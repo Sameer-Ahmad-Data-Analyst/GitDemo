@@ -1,20 +1,16 @@
-#Task 1
-#Perform Basic Mathematical Operations.
-a = 20
-b = 30
-print(a+b)
+#Task 1  Basic Mathematical Operations
 
-a = float(input ("Enter the first number: "))
-b = float(input ("Enter the second number: "))
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter second number: "))
 
-print(a+b)#Addition.
-print(a-b)#Subraction.
-print(a*b)#Miultiplication.
-print(a/b)#Division.
+print(f"Addition: is {num1 + num2}")
+print(f"Subtraction: is {num1 - num2}")
+print(f"Multiplication: is {num1 * num2}")
+print(f"Division:  is {num1 / num2}")
 
-#Task 2
-#Create a Personalized Greeting.
+#Task 2 User Greeting
 
-first = input("Enter your first name: ")
-last = input("Enter your last name: ")
-print(f"Hello,{first} {last} Welcome to the Python program.")
+First_name = input("Enter your first name: ")
+Last_name = input("Enter your last name: ")
+
+print(f"Hello {First_name} {Last_name} ! Welcom to the Python Program. ")
